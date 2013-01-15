@@ -1,7 +1,7 @@
 Node-Recurly
 ===============
 
-node-recurly is a node.js library for using the recurly recurring billing service. This library is intended to follow very closely the recurly documentation found at:
+node-recurly is a node.js library for using v2 of the recurly recurring billing service api. This library is intended to follow very closely the recurly documentation found at:
 http://docs.recurly.com/
 
 Installation
@@ -12,8 +12,7 @@ Installation
 add a config file to your project that has contents similar to:
 
 		module.exports = {
-			API_USERNAME: 'secret',
-			API_PASSWORD: 'secret',
+			API_KEY: 'secret',			
 			PRIVATE_KEY:  'secret',
 			SUBDOMAIN:    '[your_account]',
 			ENVIRONMENT:  'sandbox',
